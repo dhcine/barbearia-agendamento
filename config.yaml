@@ -13,7 +13,7 @@ barbearia:
 # WhatsApp (apenas números, com DDI do Brasil = 55)
 # Exemplo: 5511999999999
 whatsapp:
-  numero_barbearia: "551499194516"   # Número da barbearia (para receber avisos)
+  numero_barbearia: "5514991964516"   # Número da barbearia (para receber avisos)
   enviar_para_cliente: true           # Mostrar botão de enviar confirmação ao cliente
   enviar_para_barbearia: true         # Mostrar botão de avisar a barbearia
 
