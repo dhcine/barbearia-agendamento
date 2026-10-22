@@ -1,0 +1,40 @@
+# ============================================================
+#  CONFIGURAÇÃO DA BARBEARIA PREMIUM
+#  Edite este arquivo para personalizar o sistema
+# ============================================================
+
+barbearia:
+  nome: "Barbearia Premium"
+  slogan: "Estilo • Precisão • Experiência"
+  telefone: "(11) 99999-9999"
+  endereco: "Rua Exemplo, 123 - Centro"
+  mensagem_boas_vindas: "Bem-vindo à nossa barbearia. Oferecemos uma experiência exclusiva de cuidados masculinos com profissionais altamente qualificados."
+
+# WhatsApp (apenas números, com DDI do Brasil = 55)
+# Exemplo: 5511999999999
+whatsapp:
+  numero_barbearia: "5511999999999"   # Número da barbearia (para receber avisos)
+  enviar_para_cliente: true           # Mostrar botão de enviar confirmação ao cliente
+  enviar_para_barbearia: true         # Mostrar botão de avisar a barbearia
+
+# Link público do sistema (preencha quando publicar na nuvem)
+# Exemplos:
+#   https://barbearia-joao.streamlit.app
+#   https://agendamento.suabarbearia.com.br
+url_publica: ""
+
+horario:
+  abertura: "09:00"
+  fechamento: "19:00"
+  intervalo_minutos: 30
+  dias_fechados: [6]   # 0=Segunda ... 6=Domingo
+
+admin:
+  senha: "premium2026"   # Altere esta senha antes de entregar ao cliente
+
+# Cores do tema (opcional - valores em hexadecimal)
+tema:
+  cor_principal: "#C9A227"      # Dourado
+  cor_secundaria: "#E8D48B"     # Dourado claro
+  cor_fundo: "#0D0D0D"
+  cor_card: "#1A1A1A"
