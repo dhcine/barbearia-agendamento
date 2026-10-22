@@ -6,14 +6,14 @@
 barbearia:
   nome: "Barbearia Premium"
   slogan: "Estilo • Precisão • Experiência"
-  telefone: "(11) 99999-9999"
+  telefone: "(14) 9919-4516"
   endereco: "Rua Exemplo, 123 - Centro"
   mensagem_boas_vindas: "Bem-vindo à nossa barbearia. Oferecemos uma experiência exclusiva de cuidados masculinos com profissionais altamente qualificados."
 
 # WhatsApp (apenas números, com DDI do Brasil = 55)
 # Exemplo: 5511999999999
 whatsapp:
-  numero_barbearia: "5511999999999"   # Número da barbearia (para receber avisos)
+  numero_barbearia: "551499194516"   # Número da barbearia (para receber avisos)
   enviar_para_cliente: true           # Mostrar botão de enviar confirmação ao cliente
   enviar_para_barbearia: true         # Mostrar botão de avisar a barbearia
 
@@ -21,7 +21,7 @@ whatsapp:
 # Exemplos:
 #   https://barbearia-joao.streamlit.app
 #   https://agendamento.suabarbearia.com.br
-url_publica: ""
+url_publica: "https://barbearia-agendamento-premium.streamlit.app/"
 
 horario:
   abertura: "09:00"
